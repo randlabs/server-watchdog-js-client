@@ -90,7 +90,7 @@ If the process is killed or exits with an exit code different than zero, the ser
 
 Returns a promise to indicate when delivery completes.
 
-###### `swdClient.processUnwatch(pid, [, channel])`
+###### `swdClient.processUnwatch(pid[, channel])`
 
 Informs the server to stop monitoring the specified process.
 Returns a promise to indicate when delivery completes.
