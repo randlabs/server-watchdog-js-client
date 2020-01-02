@@ -1,0 +1,33 @@
+{
+  "name": "@randlabs/server-watchdog-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS library for the Server monitoring tool",
+  "main": "index.js",
+  "directories": {
+	"lib": "lib",
+	"test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randlabs/server-watchdog-nodejs.git"
+  },
+  "keywords": [
+    "server-watchdog"
+  ],
+  "author": "RandLabs IO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randlabs/server-watchdog-nodejs/issues"
+  },
+  "homepage": "https://github.com/randlabs/server-watchdog-nodejs#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "fkill": "^6.2.0"
+  }
+}
