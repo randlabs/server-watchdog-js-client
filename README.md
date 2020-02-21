@@ -1,4 +1,4 @@
-# server-watchdog-js-client
+# server-watchdog-nodejs
 
 NodeJS library for interacting with the [Server monitoring](https://github.com/randlabs/server-watchdog) tool.
 
@@ -6,13 +6,13 @@ NodeJS library for interacting with the [Server monitoring](https://github.com/r
 
 To install the library, use the following command inside your NodeJS project:
 ```sh
-$ npm install @randlabs/server-watchdog-js-client --save
+$ npm install @randlabs/server-watchdog-nodejs --save
 ```
 
 # Usage sample
 
 ```javascript
-const ServerWatchdogClient = require('@randlabs/server-watchdog-js-client');
+const ServerWatchdogClient = require('@randlabs/server-watchdog-nodejs');
 
 //...
 
